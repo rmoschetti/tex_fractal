@@ -1,0 +1,10 @@
+\begin{tikzpicture}[l-system={step=1.75pt, order=5, angle=60}]
+  \pgfdeclarelindenmayersystem{ast}{
+    \symbol{X}{\pgflsystemdrawforward}
+    \symbol{Y}{\pgflsystemdrawforward}
+    \rule{X -> Y-X-Y}
+    \rule{Y -> X+Y+X}
+  }
+  \draw [gray] (3,2) l-system
+    [l-system={ast, axiom=X, anchor=north east}];
+\end{tikzpicture}

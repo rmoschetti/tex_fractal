@@ -1,0 +1,124 @@
+\documentclass[aspectratio=169]{beamer}
+\setbeamersize{text margin left=0mm,text margin right=0mm} 
+\setbeamertemplate{navigation symbols}{}
+\usepackage{fancyvrb}
+\definecolor{MyBackground}{RGB}{247    245    231}
+\setbeamercolor{background canvas}{bg=MyBackground}
+\usepackage{graphicx} 
+\usepackage{xcolor}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{tikz}
+\usetikzlibrary{lindenmayersystems}
+
+\begin{document}
+\begin{frame}
+\begin{textblock*}{\linewidth}(3mm,5mm)
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+\centering
+\input{1}
+\end{minipage}
+}%
+\hspace{1mm}
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+{\tiny\VerbatimInput{1.tex}}
+\end{minipage}
+}%
+\end{textblock*}
+\end{frame}
+
+\begin{frame}
+\begin{textblock*}{\linewidth}(3mm,5mm)
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+\centering
+\input{2}
+\end{minipage}
+}%
+\hspace{1mm}
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+{\tiny\VerbatimInput{2.tex}}
+\end{minipage}
+}%
+\end{textblock*}
+\end{frame}
+
+\begin{frame}
+\begin{textblock*}{\linewidth}(3mm,5mm)
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+\centering
+\input{3}
+\end{minipage}
+}%
+\hspace{1mm}
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+{\tiny\VerbatimInput{3.tex}}
+\end{minipage}
+}%
+\end{textblock*}
+\end{frame}
+
+\begin{frame}
+\begin{textblock*}{\linewidth}(3mm,5mm)
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+\centering
+\input{4}
+\end{minipage}
+}%
+\hspace{1mm}
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+{\tiny\VerbatimInput{4.tex}}
+\end{minipage}
+}%
+\end{textblock*}
+\end{frame}
+
+\begin{frame}
+\begin{textblock*}{\linewidth}(3mm,5mm)
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+\centering
+\input{5}
+\end{minipage}
+}%
+\hspace{1mm}
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+{\tiny\VerbatimInput{5.tex}}
+\end{minipage}
+}%
+\end{textblock*}
+\end{frame}
+
+\begin{frame}
+\begin{textblock*}{\linewidth}(3mm,5mm)
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+\centering
+\input{6}
+\end{minipage}
+}%
+\hspace{1mm}
+\fcolorbox{black}{white}{\begin{minipage}[t][0.46\linewidth][c]{0.45\linewidth}
+{\tiny\VerbatimInput{6.tex}}
+\end{minipage}
+}%
+\end{textblock*}
+\end{frame}
+
+\end{document}
+
+
+1) Lavorando in un repo locale, fare git add, git commit, gitignore
+https://github.com/github/gitignore
+
+2) Lavorando in un repo locale, fare git checkout, git branch
+
+3) Lavorando in un repo locale, fare git merge
+
+4) Lavorando in un repo locale, visualizzare conflitti tra due branch
+
+5) Lavorando in un repo locale, come tornare a un commit vecchio e come ammazzare gli ultimi uncommitted changes
+https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
+
+6) Le stesse cose di prima, ma da un branch remoto
+git push, git pull
+
+7) Conflitti con branch remoto (Fare pull prima di push)
+
+8) Pull request 

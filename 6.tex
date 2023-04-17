@@ -1,0 +1,7 @@
+\pgfdeclarelindenmayersystem{Koch curve}{
+  \rule{F -> F-F++F-F}}
+  \begin{tikzpicture}
+\draw 
+[l-system={Koch curve, step=2pt, angle=60, axiom=F++F++F, order=4}]
+lindenmayer system -- cycle;
+\end{tikzpicture}
